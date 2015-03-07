@@ -1,9 +1,28 @@
 # hashing
 implementations of hashing algorithms in Ruby
 
-some usefule links - 
+Hashing function
 
-URL list from Sunday, Mar. 8 2015 0:10 AM
+Maps data of arbitrary size to data of fixed size
+
+Hash table
+Maps keys to interger index values
+
+Hash_function(key) % (Prime_number or Table Size) = Location in Hash Table 
+
+Domain (set of possoible keys) > Range (set of psosible indices)
+  therefore, hash table index may refer to set of possible data values (buckets)
+  
+Hashing function is always unique
+Hash table gives a bucket of memry values (non-unique)
+
+Hashing function thus improves the distrbution of values stored in hash table
+
+Cryptogrpahic Hashing function - MD5, SHA0, SHA1
+Makes it diffcult to reverse engineer original input through mathematical attach strategies
+
+Ruby uses MurmurHash - simple, fast ans opposed to secure, slow. No need for security, more for randome access of data values.
+some useful links - 
 
 To copy this list, type [Ctrl] A, then type [Ctrl] C. 
 
