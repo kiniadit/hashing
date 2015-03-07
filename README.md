@@ -80,3 +80,5 @@ http://courses.cs.vt.edu/~cs3114/Fall10/Notes/T16.HashFunctions.pdf
 language agnostic - Why should hash functions use a prime number modulus? - Stack Overflow
 http://stackoverflow.com/questions/1145217/why-should-hash-functions-use-a-prime-number-modulus
 
+http://codereview.stackexchange.com/questions/57256/is-this-a-good-ruby-implementation-of-prime-factorization
+
